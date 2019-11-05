@@ -1,67 +1,1817 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Phyx by FePhyFoFum</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Phyx</h1>
-        <p class="header">phylogenetics tools for linux (and other mostly posix compliant) computers</p>
-
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/FePhyFoFum/phyx/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/FePhyFoFum/phyx/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/FePhyFoFum/phyx">View On GitHub</a></li>
-        </ul>
-
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/FePhyFoFum">FePhyFoFum</a></p>
-
-
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>PXMRCANAME</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">PXMRCANAME</h1>
+<p class="date">November 2019</p>
+</header>
+<h1>NAME</h1>
+<p>pxconsq - manual page for pxconsq 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxconsq</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Consensus sequences from nexus, phylip, or fastq to fasta. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxconsq</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxconsq</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxconsq</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxsw - manual page for pxsw 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxsw</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Conduct Smith-Waterman analysis for all the seqs in a file. This will take fasta, fastq, phylip, and nexus inputs. Output is a list of the scores and distances (and the alignments if asked). Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output score/distance file, stout otherwise</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--outalnf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, won't output otherwise</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--seqtype</strong>=<em>INT</em></dt>
+<dd><p>sequence type, default=DNA (DNA=0,AA=1)</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--matrix</strong>=<em>FILE</em></dt>
+<dd><p>scoring matrix, default DNA=EDNAFULL, AA=BLOSUM62</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nthreads</strong>=<em>INT</em></dt>
+<dd><p>number of threads (open mp), default=2</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>make the output more verbose, turns off parallel</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxsw</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxsw</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxsw</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxvcf2fa - manual page for pxvcf2fa 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxvcf2fa</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Convert vcf file to fasta. Currently only handles haploid data; phased data will come soon. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input vcf file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output fasta sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uppercase</strong></dt>
+<dd><p>export characters in uppercase</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxvcf2fa</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxvcf2fa</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxvcf2fa</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtcol - manual page for pxtcol 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtcol</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Add information to a tree so that you can color the edges. This will take nexus and newick inputs and will output nexus so that it can be read by figtree.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--mrcaf</strong>=<em>FILE</em></dt>
+<dd><p>file with mrcas and annotations, tab separated</p>
+</dd>
+<dt><strong>-d</strong>, <strong>--nodeidf</strong>=<em>FILE</em></dt>
+<dd><p>file with nodeids (labels) and annotations, tab separated</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtcol</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtcol</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtcol</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxseqgen - manual page for pxseqgen 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxseqgen</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Basic sequence simulator under the GTR model. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input treefile, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output seq file, stout otherwise</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--length</strong>=<em>INT</em></dt>
+<dd><p>length of sequences to generate. default is 1000</p>
+</dd>
+<dt><strong>-b</strong>, <strong>--basef</strong>=<em>Input</em></dt>
+<dd><p>comma-delimited base freqs in order: A,C,G,T. default is equal</p>
+</dd>
+<dt><strong>-g</strong>, <strong>--gamma</strong>=<em>INT</em></dt>
+<dd><p>gamma shape value. default is no rate variation</p>
+</dd>
+<dt><strong>-i</strong>, <strong>--pinvar</strong>=<em>FLOAT</em></dt>
+<dd><p>proportion of invariable sites. default is 0.0</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--ratemat</strong>=<em>Input</em></dt>
+<dd><p>comma-delimited input values for rate matrix. default is JC69 order: A&lt;-&gt;C,A&lt;-&gt;G,A&lt;-&gt;T,C&lt;-&gt;G,C&lt;-&gt;T,G&lt;-&gt;T</p>
+</dd>
+<dt><strong>-w</strong>, <strong>--aaratemat</strong>=<em>Input</em></dt>
+<dd><p>comma-delimited amino acid rate matrix. default is all freqs equal order is ARNDCQEGHILKMFPSTWYV</p>
+</dd>
+</dl>
+<p><strong>-q</strong>, <strong>--aabasefreq</strong>=<em>Input</em> AA frequencies, order: ARNDCQEGHILKMFPSTWYV</p>
+<dl>
+<dt><strong>-c</strong>, <strong>--protein</strong></dt>
+<dd><p>run as amino acid</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nreps</strong>=<em>INT</em></dt>
+<dd><p>number of replicates</p>
+</dd>
+<dt><strong>-x</strong>, <strong>--seed</strong>=<em>INT</em></dt>
+<dd><p>random number seed, clock otherwise</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--ancestors</strong></dt>
+<dd><p>print the ancestral node sequences. default is no use <strong>-p</strong> for the nodes labels</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--printnodelabels</strong></dt>
+<dd><p>print newick with internal node labels. default is no</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--multimodel</strong>=<em>Input</em> specify multiple models across tree</dt>
+<dd><p>input is as follows:</p>
+</dd>
+<dt>A&lt;-&gt;C,A&lt;-&gt;G,A&lt;-&gt;T,C&lt;-&gt;G,C&lt;-&gt;T,G&lt;-&gt;T,Node#,A&lt;-&gt;C,A&lt;-&gt;G,A&lt;-&gt;T,C&lt;-&gt;G,C&lt;-&gt;T,G&lt;-&gt;T</dt>
+<dd><p>EX:.3,.3,.3,.3,.3,1,.3,.3,.2,.5,.4</p>
+</dd>
+<dt><strong>-k</strong>, <strong>--rootseq</strong>=<em>STRING</em></dt>
+<dd><p>set root sequence. default is random (from basefreqs)</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxseqgen</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxseqgen</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxseqgen</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxboot - manual page for pxboot 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxboot</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Sequence alignment bootstrap or jackknife resampling. This will take fasta, fastq, phylip, and nexus inputs. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--partf</strong>=<em>FILE</em></dt>
+<dd><p>file listing empirical partitions: NAME = START-STOP[\INTERVAL]</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--frac</strong>=<em>DOUBLE</em></dt>
+<dd><p>jackknife percentage, default bootstrap (i.e. <strong>-f</strong> 1.0)</p>
+</dd>
+<dt><strong>-x</strong>, <strong>--seed</strong>=<em>INT</em></dt>
+<dd><p>random number seed, clock otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxboot</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxboot</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxboot</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxbp - manual page for pxbp 0.991</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxbp</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will print out bipartitions found in treefile. It assumes things are rooted unless you use <strong>-e</strong> Can read from stdin or file.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input treefile, stdin otherwise</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>give more output</p>
+</dd>
+<dt><strong>-e</strong>, <strong>--edgeall</strong></dt>
+<dd><p>force edgewise (not node - so when things are unrooted) and assume all taxa are present in all trees</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uniquetree</strong></dt>
+<dd><p>output unique trees and *no* other output</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--maptree</strong>=<em>FILE</em></dt>
+<dd><p>put the bipart freq on the edges of this tree. This will create a *.pxbpmapped.tre file.</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--cutoff</strong></dt>
+<dd><p>skip biparts that have support lower than this.</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--suppress</strong></dt>
+<dd><p>don't print all the output (maybe you use this with the maptree feature</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxbp</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxbp</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxbp</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxbdsim - manual page for pxbdsim 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxbdsim</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Birth-death simulator.</p>
+<dl>
+<dt><strong>-e</strong>, <strong>--extant</strong>=<em>INT</em></dt>
+<dd><p>number of extant species, alt to time</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--time</strong>=<em>INT</em></dt>
+<dd><p>depth of the tree, alt to extant</p>
+</dd>
+<dt><strong>-b</strong>, <strong>--birth</strong>=<em>DOUBLE</em></dt>
+<dd><p>birth rate, default=1</p>
+</dd>
+<dt><strong>-d</strong>, <strong>--death</strong>=<em>DOUBLE</em></dt>
+<dd><p>death rate, default=0</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nreps</strong>=<em>INT</em></dt>
+<dd><p>number of replicates, default=1</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--showd</strong></dt>
+<dd><p>show dead taxa</p>
+</dd>
+<dt><strong>-x</strong>, <strong>--seed</strong>=<em>INT</em></dt>
+<dd><p>random number seed, clock otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxbdsim</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxbdsim</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxbdsim</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxlog - manual page for pxlog 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxlog</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>MCMC log file manipulator. Can combine and resample parameters or trees across files. Log files need not contain the same number of samples. Input files may be indicated using wildcards e.g. '*.trees' Parameter log files are expected to be whitespace delimited. *NOTE* All values are in terms of number of SAMPLES (NOT generations).</p>
+<dl>
+<dt><strong>-p</strong>, <strong>--parmf</strong>=<em>FILE</em></dt>
+<dd><p>input parameter log file(s)</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree log file(s)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-b</strong>, <strong>--burnin</strong>=<em>INT</em></dt>
+<dd><p>number of samples to exclude at the beginning of a file</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--thin</strong>=<em>INT</em></dt>
+<dd><p>interval of resampling</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--rand</strong>=<em>INT</em></dt>
+<dd><p>number of random samples (without replacement) not yet implemented!</p>
+</dd>
+<dt><strong>-i</strong>, <strong>--info</strong></dt>
+<dd><p>calculate log file attributes and exit</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--columns</strong></dt>
+<dd><p>print out column names (parameter logs only)</p>
+</dd>
+<dt><strong>-d</strong>, <strong>--delete</strong>=<em>CSL</em></dt>
+<dd><p>delete columns by 1-index sep by commas (NO SPACES!) (parameter logs only)</p>
+</dd>
+<dt><strong>-k</strong>, <strong>--keep</strong>=<em>CSL</em></dt>
+<dd><p>keep only columns by 1-index sep by commas (NO SPACES!) (parameter logs only)</p>
+</dd>
+<dt><strong>-x</strong>, <strong>--seed</strong>=<em>INT</em></dt>
+<dd><p>random number seed, clock otherwise</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>make the output more verbose</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxlog</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxlog</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxlog</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtgen - manual page for pxtgen 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtgen</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Generate all tree topologies for n taxa. Random tree samples are a-coming.</p>
+<dl>
+<dt><strong>-n</strong>, <strong>--ntax</strong>=<em>INT</em></dt>
+<dd><p>number of taxa</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--rooted</strong></dt>
+<dd><p>whether generated trees are rooted (default: false)</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--label</strong>=<em>STRING</em></dt>
+<dd><p>prefix label for taxon names (default: 't')</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2019 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtgen</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtgen</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtgen</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtcomb - manual page for pxtcomb 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtcomb</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Combine a set of trees from one file into a tree from another. Pass in 2 trees with `t` and `a`.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>reference treefile, stdin otherwise</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--addtree</strong>=<em>FILE</em></dt>
+<dd><p>alternate treefile</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtcomb</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtcomb</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtcomb</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxmrca - manual page for pxmrca 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxmrca</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Get the number of descendant tips of internal nodes specified by mrca statements. Takes in newick tree and MRCA file with format: MRCANAME = tip1 tip2 ...</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input newick tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output newick file, stout otherwise</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--mrca</strong>=<em>FILE</em></dt>
+<dd><p>file containing MRCA declarations</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxmrca</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxmrca</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxmrca</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtscale - manual page for pxtscale 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtscale</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Tree rescaling by providing either scaling factor or root height. This will take nexus and newick inputs.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--scale</strong>=<em>DOUBLE</em></dt>
+<dd><p>edge length scaling factor</p>
+</dd>
+</dl>
+<p><strong>-r</strong>, <strong>--rootheight</strong>=<em>DOUBLE</em> height of root (tree must be ultrametric)</p>
+<dl>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtscale</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtscale</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtscale</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxssort - manual page for pxssort 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxssort</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Sort sequences by id or length Can read from stdin or file, but output is fasta.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-b</strong>, <strong>--sortby</strong></dt>
+<dd><p>what to sort by: 1:id (default) 2:id rev 3:length (&lt;) 4:length (&gt;)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxssort</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxssort</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxssort</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrms - manual page for pxrms 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrms</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Removes unwanted sequences This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input nucleotide sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--names</strong>=<em>CSL</em></dt>
+<dd><p>names sep by commas (NO SPACES!)</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--namesf</strong>=<em>FILE</em></dt>
+<dd><p>names in a file (each on a line)</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--comp</strong></dt>
+<dd><p>take the complement (i.e. remove any taxa not in list)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrms</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrms</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrms</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxstrec - manual page for pxstrec 0.2</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxstrec</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will conduct state reconstruction analyses.</p>
+<dl>
+<dt><strong>-d</strong>, <strong>--dataf</strong>=<em>FILE</em></dt>
+<dd><p>input data file</p>
+</dd>
+<dt><strong>-w</strong>, <strong>--datawide</strong></dt>
+<dd><p>data is in wide format so (001 instead of 2)</p>
+</dd>
+<dt><strong>-z</strong>, <strong>--dataz</strong></dt>
+<dd><p>data is in probability format (0,1,0,0)</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--conf</strong>=<em>FILE</em></dt>
+<dd><p>configuration file</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outanc</strong>=<em>FILE</em></dt>
+<dd><p>output file for ancestral calc</p>
+</dd>
+</dl>
+<p><strong>-n</strong>, <strong>--outstnum</strong>=<em>FILE</em> output file for stochastic mapping number</p>
+<p><strong>-a</strong>, <strong>--outstnumany</strong>=<em>FILE</em> output file for stochastic mapping number any</p>
+<p><strong>-m</strong>, <strong>--outsttim</strong>=<em>FILE</em> output file for stochastic mapping duration</p>
+<dl>
+<dt><strong>-p</strong>, <strong>--periods</strong>=<em>NUMS</em></dt>
+<dd><p>comma separated times</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--logf</strong>=<em>FILE</em></dt>
+<dd><p>log file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxstrec</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxstrec</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxstrec</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtlate - manual page for pxtlate 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtlate</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Translate DNA alignment to amino acids. NOTE: assumes sequences are in frame. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input nucleotide sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--table</strong>=<em>STRING</em></dt>
+<dd><p>which translation table to use. currently available: 'std' (standard, default) 'vmt' (vertebrate mtDNA) 'ivmt' (invertebrate mtDNA) 'ymt' (yeast mtDNA)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output aa sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtlate</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtlate</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtlate</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxt2nex - manual page for pxt2nex 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxt2nex</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will convert a tree file to vanilla Nexus format. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2019 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxt2nex</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxt2nex</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxt2nex</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrecode - manual page for pxrecode 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrecode</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Nucleotide sequence recoding. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--recode</strong>=<em>STRING</em></dt>
+<dd><p>string identifying recoding scheme (default: RY)</p>
+<p>Supported recodings (use any valid combination):</p>
+<p>R = A|G Y = C|T S = C|G W = A|T M = A|C K = G|T B = C|G|T D = A|G|T H = A|C|T V = A|C|G</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrecode</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrecode</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrecode</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxs2nex - manual page for pxs2nex 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxs2nex</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Convert seqfiles from nexus, phylip, or fastq to nexus. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uppercase</strong></dt>
+<dd><p>export characters in uppercase</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxs2nex</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxs2nex</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxs2nex</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxtrt - manual page for pxtrt 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxtrt</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will trace a big tree given a taxon list and and produce newick Can read from stdin or file</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--names</strong>=<em>CSL</em></dt>
+<dd><p>names sep by commas (NO SPACES!)</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--namesf</strong>=<em>FILE</em></dt>
+<dd><p>names in a file (each on a line)</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--comp</strong></dt>
+<dd><p>take the complement (i.e. remove any taxa not in list)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--silent</strong></dt>
+<dd><p>suppress warnings of missing tips</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxtrt</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxtrt</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxtrt</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxt2new - manual page for pxt2new 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxt2new</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will convert a tree file to newick. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2014 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxt2new</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxt2new</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxt2new</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxs2phy - manual page for pxs2phy 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxs2phy</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Convert seqfiles from nexus, phylip, or fastq to phylip. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uppercase</strong></dt>
+<dd><p>export characters in uppercase</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxs2phy</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxs2phy</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxs2phy</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxnj - manual page for pxnj 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxnj</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Basic Neighbour-Joining Tree Maker. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output newick file, stout otherwise</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nthreads</strong>=<em>INT</em></dt>
+<dd><p>number of threads, default=1</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxnj</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxnj</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxnj</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxnw - manual page for pxnw 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxnw</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Conduct Needleman-Wunsch analysis for all the seqs in a file. This will take fasta, fastq, phylip, and nexus inputs. Output is a list of the scores and distances (and the alignments if asked). Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output score/distance file, stout otherwise</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--outalnf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, won't output otherwise</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--seqtype</strong>=<em>INT</em></dt>
+<dd><p>sequence type, default=DNA (DNA=0,AA=1)</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--matrix</strong>=<em>FILE</em></dt>
+<dd><p>scoring matrix, default DNA=EDNAFULL, AA=BLOSUM62</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nthreads</strong>=<em>INT</em></dt>
+<dd><p>number of threads (open mp), default=2</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>make the output more verbose, turns off parallel</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxnw</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxnw</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxnw</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxcolt - manual page for pxcolt 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxcolt</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Collapse edges with support below some threshold. If annotated Nexus, may require passing in the support identifier (<strong>-s</strong>). This will take nexus and newick inputs.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--limit</strong>=<em>DOUBLE</em></dt>
+<dd><p>minimum support threshold as proportion (default = 0.5)</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--sup</strong>=<em>STRING</em></dt>
+<dd><p>string identifying support values (if default fails)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2018 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxcolt</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxcolt</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxcolt</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxmrcacut - manual page for pxmrcacut 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxmrcacut</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Extract subclade(s) from tree(s). Takes in newick tree and MRCA file with format: MRCANAME = tip1 tip2 ...</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input newick tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output newick file, stout otherwise</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--mrca</strong>=<em>FILE</em></dt>
+<dd><p>file containing MRCA declarations</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxmrcacut</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxmrcacut</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxmrcacut</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxaa2cdn - manual page for pxaa2cdn 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxaa2cdn</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Takes in AA alignment and unaligned Nucleotide file to give a Codon Alignment. This will get rid of any sequences found in either only the Nucleotide or the Amino Acid Alignment This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-a</strong>, <strong>--aaseqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nucseqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output fasta file, stout otherwise</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--rmlastcdn</strong></dt>
+<dd><p>removes last codon</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxaa2cdn</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxaa2cdn</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxaa2cdn</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxcat - manual page for pxcat 0.9</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxcat</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Sequence file concatenation. Can use wildcards e.g.:</p>
+<blockquote>
+<p>pxcat <strong>-s</strong> *.phy <strong>-o</strong> my_cat_file.fa</p>
+</blockquote>
+<h2>However, if the argument list is too long (shell limit), put filenames in a file:</h2>
+<blockquote>
+<p>for x in *.phy; do echo $x &gt;&gt; flist.txt; done</p>
+</blockquote>
+<h2>and call using the -f option:</h2>
+<blockquote>
+<p>pxcat <strong>-f</strong> flist.txt <strong>-o</strong> my_cat_file.fa</p>
+</blockquote>
+<p>This will take fasta, fastq, phylip, and nexus inputs. Individual files can be of different formats.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>list of input sequence files (space delimited)</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--flistFILE</strong></dt>
+<dd><p>file listing input files (one per line)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--partf</strong>=<em>FILE</em></dt>
+<dd><p>output partition file, none otherwise</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uppercase</strong></dt>
+<dd><p>export characters in uppercase</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2019 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxcat</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxcat</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxcat</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxupgma - manual page for pxupgma 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxupgma</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Basic UPGMA Tree Maker. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output newick file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxupgma</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxupgma</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxupgma</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxclsq - manual page for pxclsq 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxclsq</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Cleans alignments by removing positions with too much ambiguous data. This will take fasta, fastq, phylip, and nexus inputs. Results are written in fasta format.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output fasta file, stout otherwise</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--prop</strong>=<em>DOUBLE</em></dt>
+<dd><p>proportion required to be present, default=0.5</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--aminoacid</strong></dt>
+<dd><p>force interpret as protein (if inference fails)</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>more verbose output (i.e. if entire seqs are removed)</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2015 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxclsq</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxclsq</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxclsq</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrlt - manual page for pxrlt 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrlt</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Taxon relabelling for trees. This will take nexus and newick inputs. Two ordered lists of taxa, <strong>-c</strong> (current) and <strong>-n</strong> (new) must be provided.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--cnames</strong>=<em>FILE</em></dt>
+<dd><p>file containing current taxon labels (one per line)</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nnames</strong>=<em>FILE</em></dt>
+<dd><p>file containing new taxon labels (one per line)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>make the output more verbose</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2018 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrlt</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrlt</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrlt</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrr - manual page for pxrr 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrr</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will reroot (or unroot) a tree file and produce a newick. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-g</strong>, <strong>--outgroups</strong>=<em>CSL</em></dt>
+<dd><p>outgroup sep by commas (NO SPACES!)</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--ranked</strong></dt>
+<dd><p>turn on ordering of outgroups. will root on first one present</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--unroot</strong></dt>
+<dd><p>unroot the tree</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--silent</strong></dt>
+<dd><p>do not error if outgroup(s) not found</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2014 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrr</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrr</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrr</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrls - manual page for pxrls 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrls</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Taxon relabelling for alignments. This will take fasta, phylip or nexus file formats Two ordered lists of taxa, <strong>-c</strong> (current) and <strong>-n</strong> (new) must be provided.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input seq file, stdin otherwise</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--cnames</strong>=<em>FILE</em></dt>
+<dd><p>file containing current taxon labels (one per line)</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nnames</strong>=<em>FILE</em></dt>
+<dd><p>file containing new taxon labels (one per line)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--verbose</strong></dt>
+<dd><p>make the output more verbose</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrls</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrls</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrls</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxcltr - manual page for pxcltr 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxcltr</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>General tree cleaner. Removes annotations (node labels), 'knuckles' (2-degree nodes), and root edges to generate a 'vanilla' newick representation. By default removes all properties. Alternatively choose 1 property. This will take newick or nexus files</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input treefile, stdin otherwise</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--root</strong></dt>
+<dd><p>remove root edge (if present)</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--labels</strong></dt>
+<dd><p>remove internal node labels</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxcltr</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxcltr</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxcltr</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxlssq - manual page for pxlssq 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxlssq</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Print sequence file summary By default returns all properties. Alternatively choose 1 property. This will take fasta, phylip or nexus file formats</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input seq file, stdin otherwise</p>
+</dd>
+<dt><strong>-i</strong>, <strong>--indiv</strong></dt>
+<dd><p>output stats for individual sequences</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--nseq</strong></dt>
+<dd><p>return the number of sequences</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--nchar</strong></dt>
+<dd><p>return the number of characters (only if aligned) - for unaligned seqs, use with <strong>-i</strong> flag</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--labels</strong></dt>
+<dd><p>return all taxon labels (one per line)</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--prot</strong></dt>
+<dd><p>force interpret as protein (if inference fails)</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--aligned</strong></dt>
+<dd><p>return whether sequences are aligned (same length)</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--freqs</strong></dt>
+<dd><p>return character state frequencies</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--missing</strong></dt>
+<dd><p>return the proportion of missing characters</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output stats file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph F. Walker, Joseph W. Brown and Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxlssq</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxlssq</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxlssq</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrmt - manual page for pxrmt 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrmt</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>This will remove tips from a tree file and produce newick Can read from stdin or file</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--names</strong>=<em>CSL</em></dt>
+<dd><p>names sep by commas (NO SPACES!)</p>
+</dd>
+<dt><strong>-f</strong>, <strong>--namesf</strong>=<em>FILE</em></dt>
+<dd><p>names in a file (each on a line)</p>
+</dd>
+<dt><strong>-c</strong>, <strong>--comp</strong></dt>
+<dd><p>take the complement (i.e. remove any taxa not in list)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--silent</strong></dt>
+<dd><p>suppress warnings of missing tips</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<p>NOTE: if you get a segfault, you may try unrooting (pxrr <strong>-u</strong>) before pruning</p>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2014 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrmt</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrmt</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrmt</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxbdfit - manual page for pxbdfit 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxbdfit</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Birth-death inference</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input treefile, stdin otherwise</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--model</strong>=<em>STRING</em></dt>
+<dd><p>diversification model; either 'yule', 'bd' (default), or 'best'</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxbdfit</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxbdfit</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxbdfit</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrevcomp - manual page for pxrevcomp 0.11</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrevcomp</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Reverse complement sequences from nexus, phylip, or fastq to fasta. Can read from stdin or file, but output is fasta.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-i</strong>, <strong>--ids</strong>=<em>IDS</em></dt>
+<dd><p>a comma sep list of ids to flip (NO SPACES!)</p>
+</dd>
+<dt><strong>-g</strong>, <strong>--guess</strong></dt>
+<dd><p>EXPERIMENTAL: guess whether there are seqs that need to be rev comp. uses edlib library on first seq</p>
+</dd>
+<dt><strong>-p</strong>, <strong>--pguess</strong></dt>
+<dd><p>EXPERIMENTAL: progressively guess</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--sguess</strong></dt>
+<dd><p>EXPERIMENTAL: sampled guess</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrevcomp</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrevcomp</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrevcomp</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxlstr - manual page for pxlstr 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxlstr</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Print tree summary By default returns all properties. Alternatively choose 1 property. This will take newick or nexus files</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-r</strong>, <strong>--rooted</strong></dt>
+<dd><p>return whether the tree is rooted</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--age</strong></dt>
+<dd><p>return the height of root (must be rooted and ultrametric)</p>
+</dd>
+<dt><strong>-n</strong>, <strong>--ntips</strong></dt>
+<dd><p>return the number of terminals</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--ultrametric</strong></dt>
+<dd><p>return whether tree is ultrametric</p>
+</dd>
+<dt><strong>-b</strong>, <strong>--binary</strong></dt>
+<dd><p>return whether tree is binary</p>
+</dd>
+<dt><strong>-l</strong>, <strong>--length</strong></dt>
+<dd><p>return the length of the tree</p>
+</dd>
+<dt><strong>-i</strong>, <strong>--tiplabels</strong></dt>
+<dd><p>return all tip labels (one per line)</p>
+</dd>
+<dt><strong>-v</strong>, <strong>--rtvar</strong></dt>
+<dd><p>return root-to-tip variance</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree stats file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxlstr</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxlstr</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxlstr</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxcontrates - manual page for pxcontrates 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxcontrates</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Continuous character rate estimation with Brownian and OU. This will take fasta, phylip (and soon nexus) inputs. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-c</strong>, <strong>--charf</strong>=<em>FILE</em></dt>
+<dd><p>input character file, stdin otherwise</p>
+</dd>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-a</strong>, <strong>--analysis</strong>=<em>NUM</em></dt>
+<dd><p>analysis type (0=anc[DEFAULT], 1=ratetest)</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxcontrates</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxcontrates</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxcontrates</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxsstat - manual page for pxsstat 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxsstat</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Calculates multinomial alignment test statistics. Currently only calculates the test statistic from Bollback (2002) MBE. This will take fasta, fastq, phylip, and nexus inputs.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input seq file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2017 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxsstat</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxsstat</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxsstat</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxfqfilt - manual page for pxfqfilt 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxfqfilt</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Filter fastq files by mean quality. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-m</strong>, <strong>--mean</strong>=<em>VALUE</em></dt>
+<dd><p>mean value under which seqs are filtered</p>
+</dd>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxfqfilt</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxfqfilt</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxfqfilt</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxrmk - manual page for pxrmk 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxrmk</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Remove two-degree internal nodes ('knuckles') from a tree. This will take newick or nexus files</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output tree file, stout otherwise</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2016 FePhyFoFum License GPLv3 written by Joseph W. Brown, Stephen A. Smith (blackrim)</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxrmk</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxrmk</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxrmk</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxs2fa - manual page for pxs2fa 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxs2fa</strong> [<em>OPTION</em>]... [<em>FILE</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Convert seqfiles from nexus,phylip, fastq to fasta. Can read from stdin or file.</p>
+<dl>
+<dt><strong>-s</strong>, <strong>--seqf</strong>=<em>FILE</em></dt>
+<dd><p>input sequence file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output sequence file, stout otherwise</p>
+</dd>
+<dt><strong>-u</strong>, <strong>--uppercase</strong></dt>
+<dd><p>export characters in uppercase</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxs2fa</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxs2fa</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxs2fa</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+<h1>NAME</h1>
+<p>pxmrcaname - manual page for pxmrcaname 0.1</p>
+<h1>SYNOPSIS</h1>
+<p><strong>pxmrcaname</strong> [<em>OPTION</em>]...</p>
+<h1>DESCRIPTION</h1>
+<p>Label internal nodes with clade names. Takes in newick tree and MRCA file with format: MRCANAME = tip1 tip2 ... If no MRCA file is present, this will label anything that isn't labeled</p>
+<dl>
+<dt><strong>-t</strong>, <strong>--treef</strong>=<em>FILE</em></dt>
+<dd><p>input newick tree file, stdin otherwise</p>
+</dd>
+<dt><strong>-o</strong>, <strong>--outf</strong>=<em>FILE</em></dt>
+<dd><p>output newick file, stout otherwise</p>
+</dd>
+<dt><strong>-m</strong>, <strong>--mrca</strong>=<em>FILE</em></dt>
+<dd><p>file containing MRCA declarations</p>
+</dd>
+<dt><strong>-h</strong>, <strong>--help</strong></dt>
+<dd><p>display this help and exit</p>
+</dd>
+<dt><strong>-V</strong>, <strong>--version</strong></dt>
+<dd><p>display version and exit</p>
+</dd>
+</dl>
+<h1>REPORTING BUGS</h1>
+<p>Report bugs to: &lt;https://github.com/FePhyFoFum/phyx/issues&gt; phyx home page: &lt;https://github.com/FePhyFoFum/phyx&gt;</p>
+<h1>COPYRIGHT</h1>
+<p>Copyright © 2013 FePhyFoFum License GPLv3 written by Stephen A. Smith (blackrim), Joseph W. Brown</p>
+<h1>SEE ALSO</h1>
+<p>The full documentation for <strong>pxmrcaname</strong> is maintained as a Texinfo manual. If the <strong>info</strong> and <strong>pxmrcaname</strong> programs are properly installed at your site, the command</p>
+<blockquote>
+<p><strong>info pxmrcaname</strong></p>
+</blockquote>
+<p>should give you access to the complete manual.</p>
+</body>
 </html>
